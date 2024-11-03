@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Ticket của tôi</h1>
+  
+    <div class="ticket-list">
+      <div class="ticket-card" *ngFor="let ticket of tickets">
+        <div class="ticket-info">
+          <h2>{{ ticket.name }}</h2>
+          <p>Ngày: {{ ticket.date }}</p>
+          <p>Giờ: {{ ticket.time }}</p>
+          <p>Địa điểm: {{ ticket.location }}</p>
+        </div>
+        <button class="view-ticket-btn" (click)="viewTicket(ticket)">Xem vé</button>
+      </div>
+    </div>
+  </div>
+  

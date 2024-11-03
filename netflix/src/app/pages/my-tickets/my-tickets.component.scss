@@ -1,0 +1,47 @@
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .ticket-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #4CAF50;
+  }
+  
+  .ticket-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .view-ticket-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-ticket-btn:hover {
+    background-color: #45a049;
+  }
+  
